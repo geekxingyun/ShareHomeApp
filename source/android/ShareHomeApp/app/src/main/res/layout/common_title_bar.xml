@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:id="@+id/common_come_back_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/activity_common_padding"
+        android:visibility="gone"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_menu_back" />
+    <TextView android:id="@+id/common_title_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="@dimen/activity_common_padding"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/colorWhite"
+        android:text="Common Title"
+        />
+</RelativeLayout>
