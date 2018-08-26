@@ -9,6 +9,8 @@
 
 Android 框架初始化完成
 
+![Alt text](/preview/android_preview.png)
+
 ## 目录层级说明
 
 source -------------源码
