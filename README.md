@@ -5,8 +5,6 @@
 
 ## 进度更新
 
-表结构和数据库设计完善中。。。
-
 Android 框架初始化完成
 
 ![Alt text](/preview/android_preview.png)
