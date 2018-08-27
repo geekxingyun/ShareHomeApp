@@ -19,13 +19,13 @@
 
 ### Web前端：
 
-开发环境：Hbuilder 
+开发环境：[HBuilder.9.1.14.Windows](http://www.dcloud.io/)
 
-技术清单: BootStrap 4 + Vue.js + Angular JS
+技术清单: [BootStrap 4](https://v4.bootcss.com/) + [Vue.js](https://cn.vuejs.org/)+ [Angular JS](https://angularjs.org/)
 
 ### Android端：
 
-开发环境：Android Studio(3.1.4) + Genymotion(模拟器) + Intel® Hardware Accelerated Execution Manager(硬件加速器)
+开发环境：[Android Studio(3.1.4)](http://www.android-studio.org/) + [Genymotion(模拟器)](https://www.genymotion.com/)+ [Intel® Hardware Accelerated Execution Manager(硬件加速器)](https://software.intel.com/en-us/articles/intel-hardware-accelerated-execution-manager-intel-haxm)
 
 技术清单：OkHttpUtils(网络请求库) + butterknife(视图数据绑定)
 
