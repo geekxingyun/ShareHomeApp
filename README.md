@@ -5,11 +5,11 @@
 
 ## 任务分配
 
-1. Web 后台模块 -------
+1. Web 后台模块
 
-租个家模块 -------待分配
+租个家模块 -------待分配----星云
 
-找工作模块-------待分配
+找工作模块-------待分配-----张鹏
 
 交朋友模块-------待分配
 
@@ -42,6 +42,26 @@ source/web----------Web后台源码
 source/android-----------Android 源码
 
 source/ios-----------IOS源码
+
+## 开发环境和技术清单
+
+###Web后台
+
+开发环境：JDK 1.8（64位）+ Intellij Idea(2018.2) + MySQL
+
+技术清单：Spring Boot(2.0.4)+ Dev Tools +Web + Thymeleaf+ JPA + MySQL
+
+###Web前端：
+
+开发环境：Hbuilder 
+
+技术清单: BootStrap 4 + Vue.js + Angular JS
+
+Android端：
+
+开发环境：Android Studio(3.1.4) + Genymotion(模拟器) + Intel® Hardware Accelerated Execution Manager(硬件加速器)
+
+技术清单：OkHttpUtils(网络请求库) + butterknife(视图数据绑定)
 
 ## 表说明
 
