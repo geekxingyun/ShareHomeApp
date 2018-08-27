@@ -25,7 +25,7 @@
 
 ## 目录层级说明
 
-source -------------源码
+source/FrontEnd-----------Web前端
 
 source/web----------Web后台源码
 
@@ -33,7 +33,7 @@ source/android-----------Android 源码
 
 source/ios-----------IOS源码
 
-privew-------效果图
+preview-------效果图
 
 ## 任务分配列表
 
