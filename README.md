@@ -17,7 +17,7 @@
 
 技术清单: BootStrap 4 + Vue.js + Angular JS
 
-Android端：
+### Android端：
 
 开发环境：Android Studio(3.1.4) + Genymotion(模拟器) + Intel® Hardware Accelerated Execution Manager(硬件加速器)
 
@@ -85,7 +85,11 @@ privew-------效果图
 
 个人中心模块-------开发进行中
 
-5. 心灵按摩师
+5. UI
+
+负责人：黄月月
+
+6. 心灵按摩师
 
 负责人：巧儿
 
