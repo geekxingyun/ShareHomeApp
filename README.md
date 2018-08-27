@@ -13,7 +13,7 @@
 
 ### Web后台
 
-开发环境：JDK 1.8（64位）+ Intellij Idea(2018.2) + MySQL
+开发环境：JDK 1.8（64位）+ <a href="https://www.jetbrains.com/idea/download/#section=windows" target="_blank">Intellij Idea(2018.2)</a> + <a href="https://dev.mysql.com/downloads/mysql/" target="_blank">MySQL Community Server</a>
 
 技术清单：Spring Boot(2.0.4)+ Dev Tools +Web + Thymeleaf+ JPA + MySQL
 
