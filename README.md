@@ -3,7 +3,13 @@
 
 # 当前状态：开发进行中。。。
 
-## 开发环境和技术清单
+## 开发工具和技术清单
+
+### 辅助工具
+
+截图神器 Snipaste: https://www.snipaste.com/
+
+取色器 彗星小助手：http://www.it608.com/Item/ca.html
 
 ### Web后台
 
