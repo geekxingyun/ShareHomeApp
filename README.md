@@ -56,6 +56,7 @@ public class AppResponse  implements Serializable {
     
     private Object extendField;// 扩展字段 
     }
+    
     </code>
  
  返回成功:
@@ -66,10 +67,8 @@ public class AppResponse  implements Serializable {
  
  返回失败：
  
- <code>
-	
+ <code>	
  {"resultStatus":false,"resultCode":500,"resultMessage":"响应失败","resultData":null,"extendField":null}
- 
  </code>
  
  resultStatus: 返回状态
