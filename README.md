@@ -43,6 +43,8 @@ preview-------效果图
 
 ## API接口规范
 
+<code>
+
 public class AppResponse  implements Serializable {
 
     private Boolean resultStatus;// true:Request Success false: Request fail
@@ -56,8 +58,32 @@ public class AppResponse  implements Serializable {
     private Object extendField;// 扩展字段
     
  }
+
+ </code>
  
- 样例:
+ 返回成功:
+ 
+ <code>
+	{"resultStatus":true,"resultCode":200,"resultMessage":"响应成功","resultData":null,"extendField":null}
+ </code>
+ 
+ 返回失败：
+ 
+ <code>
+	
+ {"resultStatus":false,"resultCode":500,"resultMessage":"响应失败","resultData":null,"extendField":null}
+ 
+ </code>
+ 
+ resultStatus: 返回状态
+ 
+ resultCode : 返回状态码
+ 
+ resultMessage:返回信息
+ 
+ resultData: 业务逻辑参数,该字段为泛型，可为null, Object, List<Object> 等多种数据类型
+
+ extendField: 扩展字段,默认是 null
  
  ![Alt text](/preview/api_sample/api_response_json_sample.png)
  
