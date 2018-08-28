@@ -55,7 +55,6 @@ public class AppResponse  implements Serializable {
     private Object resultData;// business data
     
     private Object extendField;// 扩展字段 
-    
  }
  </code>
  
