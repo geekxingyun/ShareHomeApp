@@ -61,7 +61,7 @@ public class AppResponse  implements Serializable {
  
  ![Alt text](/preview/api_sample/API_Response_JSON_Sample_01.png)
  
- ![Alt text](/preview/API_Response_JSON_Sample_02.png)
+ ![Alt text](/preview/api_sample/API_Response_JSON_Sample_02.png)
  
 
 ## 开发小组 - 任务分配列表
