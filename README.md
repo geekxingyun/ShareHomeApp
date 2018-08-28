@@ -41,6 +41,26 @@ source/ios-----------IOS源码
 
 preview-------效果图
 
+## API接口规范
+
+public class AppResponse  implements Serializable {
+
+    private Boolean resultStatus;// true:Request Success false: Request fail
+    
+    private Integer resultCode;// response code
+    
+    private String resultMessage;// response message
+    
+    private Object resultData;// business data
+    
+    private Object extendField;// 扩展字段
+    
+ }
+ 
+ 样例:
+ 
+ 
+
 ## 开发小组 - 任务分配列表
 
 1. Web 后台模块
