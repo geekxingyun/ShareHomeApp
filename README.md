@@ -85,9 +85,6 @@ public class AppResponse  implements Serializable {
 
  extendField: 扩展字段,默认是 null
  
- ![Alt text](/preview/api_sample/api_response_json_sample.png)
- 
-
 ## 开发小组 - 任务分配列表
 
 1. Web 后台模块
