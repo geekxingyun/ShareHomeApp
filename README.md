@@ -44,9 +44,8 @@ preview-------效果图
 ## API接口规范
 
 <code>
-
 public class AppResponse  implements Serializable {
-
+	
     private Boolean resultStatus;// true:Request Success false: Request fail
     
     private Integer resultCode;// response code
@@ -55,10 +54,9 @@ public class AppResponse  implements Serializable {
     
     private Object resultData;// business data
     
-    private Object extendField;// 扩展字段
+    private Object extendField;// 扩展字段 
     
  }
-
  </code>
  
  返回成功:
