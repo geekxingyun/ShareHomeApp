@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ShareHomeAppApplication {
+public class SharehomeappApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ShareHomeAppApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SharehomeappApplication.class, args);
+    }
 }
