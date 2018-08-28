@@ -59,9 +59,7 @@ public class AppResponse  implements Serializable {
  
  样例:
  
- ![Alt text](/preview/api_sample/API_Response_JSON_Sample_01.png)
- 
- ![Alt text](/preview/api_sample/API_Response_JSON_Sample_02.png)
+ ![Alt text](/preview/api_sample/api_response_json_sample.png)
  
 
 ## 开发小组 - 任务分配列表
