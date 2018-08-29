@@ -43,8 +43,6 @@ preview-------效果图
 
 ## API接口规范
 
-<code>
-	
 public class AppResponse  implements Serializable {
 	
     private Boolean resultStatus;// true:Request Success false: Request fail
@@ -57,20 +55,15 @@ public class AppResponse  implements Serializable {
     
     private Object extendField;// 扩展字段 
     
-    }
+}
 
-</code>
  返回成功:
  
- <code>
 	{"resultStatus":true,"resultCode":200,"resultMessage":"响应成功","resultData":null,"extendField":null}
- </code>
  
  返回失败：
  
- <code>	
  {"resultStatus":false,"resultCode":500,"resultMessage":"响应失败","resultData":null,"extendField":null}
- </code>
  
  resultStatus: 返回状态
  
