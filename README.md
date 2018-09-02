@@ -3,6 +3,10 @@
 
 # 当前状态：开发进行中。。。
 
+# 更新信息
+
+房屋信息接口发布  <a href="http://www.521geek.com/swagger-ui.html" target="_blank">Share Home App API </a>
+
 ## 开发工具和技术清单
 
 ### 辅助工具
