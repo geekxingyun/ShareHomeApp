@@ -1,5 +1,7 @@
 package com.xingyun.sharehomeapp.model.db;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -23,31 +25,19 @@ public class HomeInfoPic implements Serializable{
 	private Long homeInfoPicId;//房屋图片Id
 	@Column(name = "homeInfoPicLabel")
 	private String homeInfoPicLabel;//房屋图片标签名称
-	@Column(name = "homeInfoPicName")
-	private String homeInfoPicName;//房屋图片名称
 	@Column(name = "homeInfoPicPath")
 	private String homeInfoPicPath;//房屋图片路径
-	@Column(name = "homeInfoPicDesc")
-	private String homeInfoPicDesc;//房屋图片描述信息
+	@Column(name = "homeInfoPicSortId")
+	private Integer homeInfoPicSortId;//房屋图片排序Id
 
 	public HomeInfoPic() {
 	}
 
-	public HomeInfoPic(Long homeInfoPicId, String homeInfoPicLabel, String homeInfoPicName, String homeInfoPicPath, String homeInfoPicDesc) {
+	public HomeInfoPic(Long homeInfoPicId, String homeInfoPicLabel, String homeInfoPicPath, Integer homeInfoPicSortId) {
 		this.homeInfoPicId = homeInfoPicId;
 		this.homeInfoPicLabel = homeInfoPicLabel;
-		this.homeInfoPicName = homeInfoPicName;
 		this.homeInfoPicPath = homeInfoPicPath;
-		this.homeInfoPicDesc = homeInfoPicDesc;
-	}
-
-	public HomeInfoPic(Long homeInfoPicUid, Long homeInfoPicId, String homeInfoPicLabel, String homeInfoPicName, String homeInfoPicPath, String homeInfoPicDesc) {
-		this.homeInfoPicUid = homeInfoPicUid;
-		this.homeInfoPicId = homeInfoPicId;
-		this.homeInfoPicLabel = homeInfoPicLabel;
-		this.homeInfoPicName = homeInfoPicName;
-		this.homeInfoPicPath = homeInfoPicPath;
-		this.homeInfoPicDesc = homeInfoPicDesc;
+		this.homeInfoPicSortId = homeInfoPicSortId;
 	}
 
 	public static long getSerialVersionUID() {
@@ -78,14 +68,6 @@ public class HomeInfoPic implements Serializable{
 		this.homeInfoPicLabel = homeInfoPicLabel;
 	}
 
-	public String getHomeInfoPicName() {
-		return homeInfoPicName;
-	}
-
-	public void setHomeInfoPicName(String homeInfoPicName) {
-		this.homeInfoPicName = homeInfoPicName;
-	}
-
 	public String getHomeInfoPicPath() {
 		return homeInfoPicPath;
 	}
@@ -94,12 +76,12 @@ public class HomeInfoPic implements Serializable{
 		this.homeInfoPicPath = homeInfoPicPath;
 	}
 
-	public String getHomeInfoPicDesc() {
-		return homeInfoPicDesc;
+	public Integer getHomeInfoPicSortId() {
+		return homeInfoPicSortId;
 	}
 
-	public void setHomeInfoPicDesc(String homeInfoPicDesc) {
-		this.homeInfoPicDesc = homeInfoPicDesc;
+	public void setHomeInfoPicSortId(Integer homeInfoPicSortId) {
+		this.homeInfoPicSortId = homeInfoPicSortId;
 	}
 
 	@Override

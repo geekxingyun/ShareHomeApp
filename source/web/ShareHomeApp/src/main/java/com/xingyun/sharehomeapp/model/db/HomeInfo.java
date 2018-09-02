@@ -51,6 +51,8 @@ public class HomeInfo implements Serializable{
 	private String homeInfoSupportPayMethod;//付款方式
 	@Column(name = "homeInfoHeatingMethod")
 	private String homeInfoHeatingMethod;//供暖方式
+	@Column(name = "homeInfoCurrentStatus")
+	private String homeInfoCurrentStatus;//房屋现状
 	@Column(name="homeInfoDeviceListId")
 	private Long homeInfoDeviceListId;//房屋设备列表Id----外键关联
 	@Column(name = "homeInfoPicListId")
@@ -59,7 +61,7 @@ public class HomeInfo implements Serializable{
 	public HomeInfo() {
 	}
 
-	public HomeInfo(String homeInfoTitle, Double homeInfoMoneyByOneMonth, String homeInfoArea, String homeInfoType, String homeInfoFloor, String homeInfoOrientation, String homeInfoSubway, String homeInfoCommunity, String homeInfoAddress, String homeInfoPhone, Long homeInfoPublishTime, String homeInfoRentalMethod, String homeInfoSupportPayMethod, String homeInfoHeatingMethod, Long homeInfoDeviceListId, Long homeInfoPicListId) {
+	public HomeInfo(String homeInfoTitle, Double homeInfoMoneyByOneMonth, String homeInfoArea, String homeInfoType, String homeInfoFloor, String homeInfoOrientation, String homeInfoSubway, String homeInfoCommunity, String homeInfoAddress, String homeInfoPhone, Long homeInfoPublishTime, String homeInfoRentalMethod, String homeInfoSupportPayMethod, String homeInfoHeatingMethod, String homeInfoCurrentStatus, Long homeInfoDeviceListId, Long homeInfoPicListId) {
 		this.homeInfoTitle = homeInfoTitle;
 		this.homeInfoMoneyByOneMonth = homeInfoMoneyByOneMonth;
 		this.homeInfoArea = homeInfoArea;
@@ -74,12 +76,9 @@ public class HomeInfo implements Serializable{
 		this.homeInfoRentalMethod = homeInfoRentalMethod;
 		this.homeInfoSupportPayMethod = homeInfoSupportPayMethod;
 		this.homeInfoHeatingMethod = homeInfoHeatingMethod;
+		this.homeInfoCurrentStatus = homeInfoCurrentStatus;
 		this.homeInfoDeviceListId = homeInfoDeviceListId;
 		this.homeInfoPicListId = homeInfoPicListId;
-	}
-
-	public static long getSerialVersionUID() {
-		return serialVersionUID;
 	}
 
 	public Long getHomeInfoId() {
@@ -200,6 +199,14 @@ public class HomeInfo implements Serializable{
 
 	public void setHomeInfoHeatingMethod(String homeInfoHeatingMethod) {
 		this.homeInfoHeatingMethod = homeInfoHeatingMethod;
+	}
+
+	public String getHomeInfoCurrentStatus() {
+		return homeInfoCurrentStatus;
+	}
+
+	public void setHomeInfoCurrentStatus(String homeInfoCurrentStatus) {
+		this.homeInfoCurrentStatus = homeInfoCurrentStatus;
 	}
 
 	public Long getHomeInfoDeviceListId() {

@@ -26,6 +26,19 @@
 
     <dependencies>
 
+        <!-- Swagger 一个描述API的json文件，而这个组件的功能就是帮助我们自动生成这个json文件 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <!-- Swagger 就是将这个json文件解析出来，用一种更友好的方式呈现出来 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+
         <!-- Spring Data JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
