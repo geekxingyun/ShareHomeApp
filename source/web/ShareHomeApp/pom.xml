@@ -26,6 +26,13 @@
 
     <dependencies>
 
+        <!-- 当需要自定义变量在application-dev.properties 文件中时候需要配置这个 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
         <!-- Swagger 一个描述API的json文件，而这个组件的功能就是帮助我们自动生成这个json文件 -->
         <dependency>
             <groupId>io.springfox</groupId>
