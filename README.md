@@ -1,21 +1,21 @@
 # ShareHomeApp
 致力于开发一个免费无中介直租共享房源平台App项目~
 
-# 当前状态：开发进行中。。。
+#### 当前状态：开发进行中。。。
 
-# 公告更新信息
+## 公告更新信息
 
 1. 房屋信息接口发布  <a href="http://www.521geek.com/swagger-ui.html" target="_blank">Share Home App API </a>
 
 2. 代码仓库迁移到 <a href="https://code.aliyun.com/">阿里云Code</a>
 
-Web仓库：https://code.aliyun.com/ShareHomeApp/ShareHomeApp_Web
+* Web仓库：https://code.aliyun.com/ShareHomeApp/ShareHomeApp_Web
 
-前端UI仓库：https://code.aliyun.com/ShareHomeApp/ShareHomeApp_UI
+* 前端UI仓库：https://code.aliyun.com/ShareHomeApp/ShareHomeApp_UI
 
-Android 仓库：https://code.aliyun.com/ShareHomeApp/ShareHomeApp_Android
+* Android 仓库：https://code.aliyun.com/ShareHomeApp/ShareHomeApp_Android
 
-IOS 仓库： https://code.aliyun.com/ShareHomeApp/ShareHomeApp_IOS
+* IOS 仓库： https://code.aliyun.com/ShareHomeApp/ShareHomeApp_IOS
 
 Tips: 
 
