@@ -7,7 +7,7 @@
 
 房屋信息接口发布  <a href="http://www.521geek.com/swagger-ui.html" target="_blank">Share Home App API </a>
 
-代码仓库移动到阿里云Code
+代码仓库迁移到 <a href="https://code.aliyun.com/">阿里云Code</a>
 
 Web仓库：https://code.aliyun.com/ShareHomeApp/ShareHomeApp_Web
 
