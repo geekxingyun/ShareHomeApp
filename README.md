@@ -23,7 +23,7 @@ Tips:
 
 1. 到阿里云官网注册一个账号，或者可以使用自己的支付宝或者淘宝账号直接登录 https://www.aliyun.com
 
-2. 仓库暂时更改为私有仓库，无权限的请微信联系我或者发邮件给我，fairy_xingyun@hotmail.com
+2. 仓库暂时更改为私有仓库，无权限的请将账号微信或者发邮件给我，fairy_xingyun@hotmail.com
 
 ## 开发工具和技术清单
 
