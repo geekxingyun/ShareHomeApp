@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">ShareHomeApp</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="bottom_home_title">租个家</string>
-    <string name="bottom_find_job_title">找工作</string>
-    <string name="bottom_chat_life_title">交朋友</string>
-    <string name="bottom_person_center_title">我的</string>
-</resources>
